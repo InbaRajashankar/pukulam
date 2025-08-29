@@ -14,10 +14,20 @@
       font-family: Arial, sans-serif;
       pointer-events: none;
     }
+    #three-container {
+      position: absolute;
+      left: 50px;
+      top: 60px;
+      width: 500px;
+      height: 500px;
+      border: 1px solid #ccc;
+      overflow: hidden;
+    }
   </style>
 </head>
 <body>
   <div id="info">Worldbuilding Map - Click and drag to move, scroll to zoom</div>
+  <div id="three-container"></div>
   <script src="https://cdn.jsdelivr.net/npm/three@0.132.2/build/three.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/three@0.132.2/examples/js/controls/OrbitControls.js"></script>
   <script src="scripts/app.js"></script>
